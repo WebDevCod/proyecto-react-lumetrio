@@ -1,5 +1,5 @@
 import React from 'react';
-import Accesorios from '../componentes/Accesorios'
+import Accesorios from '../componentes/Accesorios';
 
 class AccesoriosPage extends React.Component {
     render() {

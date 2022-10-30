@@ -6,7 +6,7 @@ class BarraMenu extends React.Component {
         return (
             <nav className='navbar navbar-expand-md navbar-dark bg-dark px-4 py-2'>
                 <div className='container-fluid'>
-                    <Link to='/'>
+                    <Link to='inicio'>
                         <img src={require('../icono.png')} alt='icono skater' width='50' className='navbar-brand' />
                     </Link>
                     <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>

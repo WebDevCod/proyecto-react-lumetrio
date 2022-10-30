@@ -1,5 +1,6 @@
-import { Routes, Route, BrowserRouter as Router } from 'react-router-dom'
+import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 import BarraMenu from './componentes/BarraMenu';
+import InicioPage from './paginas/InicioPage';
 import SkateboardsPage from './paginas/SkateboardsPage';
 import RopaPage from './paginas/RopaPage';
 import AccesoriosPage from './paginas/AccesoriosPage';
@@ -12,6 +13,7 @@ function App() {
       <Router>
         <BarraMenu />
         <Routes>
+          <Route path='inicio' element={<InicioPage />} />
           <Route path='skateboards' element={<SkateboardsPage />} />
           <Route path='ropa' element={<RopaPage />} />
           <Route path='accesorios' element={<AccesoriosPage />} />
