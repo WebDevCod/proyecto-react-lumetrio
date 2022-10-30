@@ -6,7 +6,6 @@ class InicioPage extends React.Component {
     render() {
         return (
             <div className='main'>
-                <div className='overlay'> </div>
                 <video src={videoBg} autoPlay loop muted />
             </div>
         )

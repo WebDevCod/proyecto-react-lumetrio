@@ -13,7 +13,7 @@ function App() {
       <Router>
         <BarraMenu />
         <Routes>
-          <Route path='inicio' element={<InicioPage />} />
+          <Route path='/' element={<InicioPage />} />
           <Route path='skateboards' element={<SkateboardsPage />} />
           <Route path='ropa' element={<RopaPage />} />
           <Route path='accesorios' element={<AccesoriosPage />} />
