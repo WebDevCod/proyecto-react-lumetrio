@@ -41,7 +41,12 @@ class ApiPage extends React.Component {
             <div className='container'>
                 <div className='row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 mt-3'>
                     {this.state.respuestasApi.map((respuesta) => (
-                        <p className='fs-5 fw-bold mb-4 text-center'>{respuesta.name} {<img className='card mx-auto img-fluid' src={respuesta.image} alt={respuesta.name} />}</p>
+                        <ul key={respuesta.id}>
+                            <li className='fs-5 fw-bold mb-4 text-center'>
+                                {respuesta.name}
+                                {<img className='card mx-auto img-fluid' src={respuesta.image} alt={respuesta.name} />}
+                            </li>
+                        </ul>
                     ))}
                 </div>
                 <div className='row'>
